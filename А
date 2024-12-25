@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Берсерк (1997)</title>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .header, .footer {
+      background: lightblue;
+      text-align: right;
+      padding: 10px;
+    }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .small-left, .large-left, .right, .center {
+      padding: 10px;
+      background: peachpuff;
+      width: 30%;
+    }
+    .content img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    h1, h2, p {
+      margin: 0;
+    }
+    /* Адаптація для мобільних */
+    @media (max-width: 768px) {
+      .content {
+        flex-direction: column;
+      }
+      .small-left, .large-left, .right, .center {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Аніме «Берсерк» (1997)</h1>
+    </div>
+    <div class="content">
+      <div class="small-left">
+        <h2>Сюжет</h2>
+        <p>Історія оповідає про Ґатса, могутнього воїна, який стає частиною Банде Яструба під керівництвом харизматичного Гріффіта.</p>
+      </div>
+      <div class="large-left">
+        <h2>Головні Персонажі</h2>
+        <ul>
+          <li><strong>Ґатс:</strong> Мечник із трагічним минулим і величезною силою.</li>
+          <li><strong>Гріффіт:</strong> Амбіційний лідер Банде Яструба.</li>
+          <li><strong>Каска:</strong> Вірний командир і досвідчений воїн.</li>
+        </ul>
+      </div>
+      <div class="right">
+        <h2>Тематика</h2>
+        <p>Аніме підіймає важкі теми, такі як зрада, дружба, амбіції та боротьба зі своєю долею.</p>
+      </div>
+    </div>
+    <div class="center">
+      <h2>Атмосфера</h2>
+      <p>Середньовічний темний світ, сповнений жорстокості, війни та надприродних жахів.</p>
+    </div>
+    <div class="footer">
+      <p>&copy; 2024 Аніме «Берсерк» (1997)</p>
+    </div>
+  </div>
+</body>
+</html>
